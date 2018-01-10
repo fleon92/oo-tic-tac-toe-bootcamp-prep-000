@@ -42,6 +42,7 @@ class TicTacToe
     if @board.none {|x| x == " " || x == nil
       display_board
     end
+  end
     puts "Please choose a spot by typing in a number between 1-9."
     input = gets.chomp
     index = input_to_index(input)
