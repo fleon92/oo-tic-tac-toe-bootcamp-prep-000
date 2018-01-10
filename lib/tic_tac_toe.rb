@@ -2,8 +2,7 @@ class TicTacToe
   def initialize
     @board = Array.new(9, " ")
   end
-<<<<<<< HEAD
-  
+
   WIN_COMBINATIONS = [
     [0,1,2],
     [3,4,5],
@@ -109,6 +108,4 @@ class TicTacToe
        puts "Congratulations #{winner}!"
      end
   end
-=======
->>>>>>> 2bd98f06db87c16f4a836438d6d47bd1a27dd6f4
 end
