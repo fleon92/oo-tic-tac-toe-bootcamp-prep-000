@@ -39,6 +39,7 @@ class TicTacToe
   end
   
   def turn
+    display_board
     puts "Please choose a spot by typing in a number between 1-9."
     input = gets.chomp
     index = input_to_index(input)
